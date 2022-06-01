@@ -1,0 +1,26 @@
+import turtle
+
+def draw_square(num):
+    turtle.forward(num)
+    turtle.left(90)
+    turtle.forward(num)
+    turtle.left(90)
+    turtle.forward(num)
+    turtle.left(90)
+    turtle.forward(num)
+n = int(input("Give me a number: "))
+draw_square(n-20)
+turtle.left(30)
+draw_square(n-10)
+turtle.left(30)
+draw_square(n)
+turtle.left(30)
+draw_square(n+10)
+
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
